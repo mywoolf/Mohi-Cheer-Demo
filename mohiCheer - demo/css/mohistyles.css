@@ -1,0 +1,210 @@
+/* reset */
+html, body, div, span, p, a, img, ol, ul, li, form, label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    background-color: #BFBF3F !important;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    font-family: sans-serif;
+    color: black;
+    overflow: auto;
+    clear: both;
+}
+.logo {
+    content: url(images/mohilogo.png);
+    width: 70px;
+    height: 85px;
+    float: left;
+    margin: 7px;
+    margin-right: 15px;
+    padding-right: 5px;
+    background-color: black !important;
+}
+.header2 .header1 {
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-left: 100px !important;
+}
+.buttons {
+    padding-top: 10px;
+    font: 16px Arial, Helvetica, sans-serif; 
+    color: white !important;
+}
+.buttons li {
+    display: inline;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    text-align: bottom;
+}
+.buttons .navbar .nav > li > a {
+    background-color: black;
+    color: white;
+}
+.indexcontainer {
+    padding-top: .5em;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 100%
+    font-family: sans-serif;
+    color: black !important;
+    font-weight: bold;
+}
+.indexcontainer p {
+    font-size: 2em;
+}
+#img_3car {
+    /*margin-left: 25%;*/
+    position: relative;
+    display: inline-block;
+    padding-top: .5em;
+}
+#month {
+    border-collapse: collapse;
+    margin: auto;
+}
+#month th, #month td {
+    border: 1px solid #000;
+}
+#month thead {
+    background-color:#9c9;
+}
+#month td {
+    width: 7em;
+    height: 7em;
+    padding: .2em;
+    vertical-align: top;
+    overflow: auto;
+}
+td .day {
+    width: 8em;
+    height: 6em;
+    overflow:auto;
+    margin-top: 0;
+}
+#month tbody .weekend {
+    background-color: #A29E9E;
+}
+#month tbody .next,
+#month tbody .previous {
+    background-color: #A29E9E;
+}
+#month th {
+    font: 1em bold Arial, Helvetica, sans-serif;
+}
+/*
+.rtop {
+    display:block;
+    background:#060;
+}
+.rtop * {
+    display: block;
+    height: 1px;
+    overflow: hidden;
+    background:#fff;
+}
+.r1{
+    margin: 0 0 0 5px
+}
+.r2{
+    margin: 0 0 0 3px
+}
+.r3{
+    margin: 0 0 0 2px
+}
+.r4{
+    margin: 0 0 0 1px;
+    height: 2px
+}*/
+
+p {
+    margin-top: 0;
+    font: 18px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.aside {
+    margin-left: 10px;
+    float: left;
+    width: 40%;
+    padding: 50px;
+    margin-left: 10px;
+    padding-top: 10px;
+    font: 1.3em Arial, Helvetica, sans-serif;
+}
+.asidetite {
+    margin-left: 10px;
+    padding-top: 1px;
+    padding-left: 50px;
+}
+.contactform {
+    display: inline-block;
+    margin-left: 10px;
+    float: left;
+    width: 40%;
+    padding: 50px;
+    padding-top: 14px;
+    font: 1em Arial, Helvetica, sans-serif;
+    position: auto;
+} 
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+.contactform #email, #subject, #message, #name {
+    border: 2px solid #456879;
+    line-height: 1.4em;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #BFBF3F;
+    border: 1px solid black;
+    border-color: black;
+}
+.contactform input {
+    padding-left: 5px;
+}
+input[value="Submit"], [value="Clear"] {
+    border-radius: 10px;
+    color: black;
+}
+.clickable {
+    /*cursor:pointer;*/
+    cursor: url(images/alias.png)!important, auto;
+   /* margin-bottom: 5px;*/
+}
+.clickable:hover {
+    background-color:#FFC;
+}
+.highlighted {
+    position: absolute;
+    background-color: transparent;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    border: 1px solid white;
+    z-index: 100;
+}
+.formlist .fundlist {
+    font: 18px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
