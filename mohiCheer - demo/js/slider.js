@@ -1,12 +1,14 @@
 //$(document).ready(function() {
 //the follwing line is the abbreviated version of the above code
-$(function() {
+//$(function() {
+  //$('#slider').anythingSlider();
+//}); 
+
+
+
+$(document).ready(function() {
   $('#slider').anythingSlider();
-}); 
-
-
-
-
+}); // end ready
 
 
 /*TRY THIS ANIMATION ON AN OBJECT
